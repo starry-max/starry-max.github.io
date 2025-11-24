@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>奶龙卖萌，贝利亚裂开了</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial Rounded MT Bold', 'Microsoft YaHei', sans-serif; }
+        body { background-color: #fdf2f8; background-image: radial-gradient(#ffccd5 2px, transparent 2px); background-size: 30px 30px; }
+        .nav { background-color: #ff6b8b; padding: 15px 0; box-shadow: 0 2px 10px rgba(255,107,139,0.3); position: sticky; top: 0; z-index: 100; }
+        .nav-container { width: 90%; max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { display: flex; align-items: center; gap: 10px; color: white; font-size: 24px; font-weight: bold; }
+        .logo img { width: 40px; height: 40px; border-radius: 50%; }
+        .nav-links { display: flex; gap: 30px; }
+        .nav-links a { color: white; text-decoration: none; font-size: 16px; transition: all 0.3s; }
+        .nav-links a:hover { color: #fff3cd; transform: scale(1.1); }
+        .nav-links a.active { color: #fff3cd; font-weight: bold; border-bottom: 2px solid #fff3cd; }
+        .story-header { width: 90%; max-width: 1200px; margin: 40px auto; text-align: center; }
+        .story-header h2 { font-size: 36px; color: #ff6b8b; margin-bottom: 15px; }
+        .story-header p { font-size: 18px; color: #666; }
+        .story-container { width: 90%; max-width: 1000px; margin: 30px auto; background-color: white; padding: 40px; border-radius: 20px; box-shadow: 0 5px 15px rgba(255,107,139,0.1); }
+        .story-content { line-height: 2; color: #555; font-size: 17px; }
+        .story-content p { margin-bottom: 20px; }
+        .story-content .highlight { color: #ff6b8b; font-weight: bold; }
+        /* 插图占位样式 */
+        .img-placeholder { width: 100%; margin: 30px 0; text-align: center; }
+        .img-placeholder img { max-width: 80%; height: auto; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .img-caption { font-size: 14px; color: #999; margin-top: 10px; }
+        .footer { background-color: #ff6b8b; color: white; text-align: center; padding: 20px 0; margin-top: 80px; }
+        .footer p { font-size: 14px; opacity: 0.9; }
+        @media (max-width: 768px) { 
+            .story-header h2 { font-size: 28px; } 
+            .story-container { padding: 30px; }
+            .story-content { font-size: 16px; }
+            .img-placeholder img { max-width: 90%; }
+        }
+        @media (max-width: 480px) { 
+            .logo { font-size: 20px; } 
+            .nav-links { gap: 15px; font-size: 14px; } 
+            .story-header h2 { font-size: 24px; } 
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo"><img src="images/logo.jpg" alt="奶龙logo"><span>奶龙的快乐星球</span></div>
+            <div class="nav-links">
+                <a href=" ">首页</a >
+                <a href="gallery.html">奶龙图库</a >
+                <a href="story.html" class="active">奶龙故事</a >
+                <a href="contact.html">联系我</a >
+                <a href="about.html">关于奶龙</a >
+            </div>
+        </div>
+    </nav>
+
+    <section class="story-header">
+        <h2>奶龙卖萌，贝利亚裂开了</h2>
+        <p>当软萌奶龙遇上暗黑贝利亚，宇宙都变甜啦～</p >
+    </section>
+
+    <section class="story-container">
+        <div class="story-content">
+            <p>小奶龙被光之国最强战士贝利亚一爪子拍进火星尘埃。全宇宙都以为它已化为宇宙粒子，谁料奶龙歪头爬起，眨巴无辜大眼睛：<span class="highlight">“pika？”</span></p >
+            
+            <!-- 插图位1：贝利亚挥爪拍飞奶龙（场景核心冲突） -->
+            <div class="img-placeholder">
+                <img src="images/a.jpg" alt="贝利亚一爪将奶龙拍进火星尘埃">
+                <div class="img-caption">贝利亚挥爪重击，奶龙被拍进火星深坑</div>
+            </div>
+
+            <p>火星的赤红色尘埃，像是被一只无形巨手狠狠扬起，形成一圈缓慢扩散的暗红浪潮。撞击点的中央，是一个触目惊心的深坑，边缘还散发着岩石被瞬间汽化的灼热白烟。贝利亚，漆黑的巨爪上缠绕着不祥的暗红色能量纹路，他屹立在深坑边缘，猩红的双目如同地狱的探照灯，穿透弥漫的尘幕，扫视着自己的“杰作”。他嘴角咧开，露出尖锐的牙齿——这是毁灭者确认目标已被彻底抹除后的、纯粹而残忍的愉悦。</p >
+            <p>死寂笼罩着火星表面，只有风刮过岩石缝隙的呜咽。就在这时，深坑底部一小堆积雪般的白色物体动了一下，尘埃滑落，露出了圆滚滚的小奶龙。它晃了晃脑袋甩掉沙子，仰起头看向贝利亚，发出了一声带着困惑的：<span class="highlight">“pika？”</span></p >
+            
+            <!-- 插图位2：奶龙歪头疑惑喊“pika”（萌点核心） -->
+            <div class="img-placeholder">
+                <img src="images/b.jpg" alt="">
+                <div class="img-caption">奶龙抖落尘埃，歪头眨巴大眼睛喊“pika”</div>
+            </div>
+
+            <p>贝利亚的笑容瞬间凝固。他不敢相信，自己倾注毁灭性能量的一击，竟没干掉这只看起来人畜无害的小东西！冰冷的怒意翻涌，他再次汇聚黑暗能量，暗红色闪电在爪间跳跃，一个足以湮灭整片区域的暗黑毁灭弹急速成型：<span class="highlight">“给本大爷……彻底消失！”</span></p >
+            <p>毁灭性能量球直扑奶龙，可就在即将吞噬它的刹那，异变陡生！贝利亚的身躯剧烈震颤，暗黑毁灭弹表面突兀冒出一串<span class="highlight">粉红色泡泡</span>，他体内的黑暗能量正被萌力疯狂净化！</p >
+            
+            <!-- 插图位3：贝利亚黑暗能量变成粉红色泡泡（关键转折） -->
+            <div class="img-placeholder">
+                <img src="images/c.jpg" alt="奶龙贝利亚王不见王">
+                <div class="img-caption">奶龙贝利亚王不见王</div>
+            </div>
+
+            <p>“什么？！”贝利亚惊愕低头，一股软绵绵、暖洋洋的感觉从能量核心爆发，黑暗能量被硬生生扭成了粉红色泡泡。越来越多的泡泡从他爪间、胸口、装甲缝隙里冒出来，飘向火星暗红的天空。<span class="highlight">“住手！本大爷的力量怎么会变成粉红色泡泡？！”</span>他的怒吼里满是惊惶与崩溃。</p >
+            <p>小奶龙却亮了眼睛，开心地“pika~pika~”叫着，跃起拍碎飘来的泡泡，玩得不亦乐乎。等它停下，仰头对着贝利亚露出软萌到极致的笑容：<span class="highlight">“(｡･ω･｡)”</span></p >
+            
+            <!-- 插图位4：奶龙拍泡泡+贝利亚崩溃（结局名场面） -->
+            <div class="img-placeholder">
+                <img src="images/d.jpg" alt="奶龙拍泡泡，贝利亚崩溃裂开">
+                <div class="img-caption">奶龙仰头对着贝利亚露出软萌到极致的笑容：“(｡･ω･｡)”</div>
+            </div>
+
+            <p>贝利亚感觉自己坚不可摧的黑暗之心，被一支裹着天鹅绒的巨锤狠狠砸中。裂开的，好像不止是他的世界观。</p >
+        </div>
+    </section>
+
+    <footer class="footer"><p>© 2025 奶龙的快乐星球 | 所有故事仅供娱乐，侵权必删</p ></footer>
+</body>
+</html>

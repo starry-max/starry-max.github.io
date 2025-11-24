@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于奶龙 - 快乐星球小档案</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial Rounded MT Bold', 'Microsoft YaHei', sans-serif; }
+        body { background-color: #fdf2f8; background-image: radial-gradient(#ffccd5 2px, transparent 2px); background-size: 30px 30px; }
+        .nav { background-color: #ff6b8b; padding: 15px 0; box-shadow: 0 2px 10px rgba(255,107,139,0.3); position: sticky; top: 0; z-index: 100; }
+        .nav-container { width: 90%; max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { display: flex; align-items: center; gap: 10px; color: white; font-size: 24px; font-weight: bold; }
+        .logo img { width: 40px; height: 40px; border-radius: 50%; }
+        .nav-links { display: flex; gap: 30px; }
+        .nav-links a { color: white; text-decoration: none; font-size: 16px; transition: all 0.3s; }
+        .nav-links a:hover { color: #fff3cd; transform: scale(1.1); }
+        .nav-links a.active { color: #fff3cd; font-weight: bold; border-bottom: 2px solid #fff3cd; }
+        .about-header { width: 90%; max-width: 1200px; margin: 40px auto; text-align: center; }
+        .about-header h2 { font-size: 36px; color: #ff6b8b; margin-bottom: 15px; }
+        .about-header p { font-size: 18px; color: #666; }
+        .about-container { width: 90%; max-width: 1000px; margin: 30px auto; display: flex; flex-wrap: wrap; gap: 40px; align-items: center; }
+        .about-img { flex: 1 1 350px; text-align: center; }
+        .about-img img { width: 80%; max-width: 300px; border-radius: 20px; box-shadow: 0 10px 30px rgba(255,107,139,0.2); }
+        .about-text { flex: 2 1 500px; }
+        .about-text h3 { font-size: 24px; color: #ff6b8b; margin-bottom: 20px; }
+        .about-text p { font-size: 16px; color: #555; line-height: 1.8; margin-bottom: 15px; }
+        .about-text ul { list-style: none; margin-top: 20px; }
+        .about-text li { font-size: 16px; color: #555; margin-bottom: 10px; padding-left: 20px; position: relative; }
+        .about-text li::before { content: "✨"; position: absolute; left: 0; color: #ff6b8b; }
+        .footer { background-color: #ff6b8b; color: white; text-align: center; padding: 20px 0; margin-top: 80px; }
+        .footer p { font-size: 14px; opacity: 0.9; }
+        @media (max-width: 768px) { .about-container { flex-direction: column; } .about-header h2 { font-size: 28px; } }
+        @media (max-width: 480px) { .logo { font-size: 20px; } .nav-links { gap: 15px; font-size: 14px; } .about-header h2 { font-size: 24px; } .about-text h3 { font-size: 20px; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo"><img src="images/logo.jpg" alt="奶龙logo"><span>奶龙的快乐星球</span></div>
+            <div class="nav-links">
+                <a href=" ">首页</a >
+                <a href="gallery.html">奶龙图库</a >
+                <a href="story.html">奶龙故事</a >
+                <a href="contact.html">联系我</a >
+                <a href="about.html" class="active">关于奶龙</a >
+            </div>
+        </div>
+    </nav>
+    <section class="about-header">
+        <h2>奶龙小档案</h2>
+        <p>认识这个圆滚滚的小可爱～</p >
+    </section>
+    <section class="about-container">
+        <div class="about-img"><img src="images/about.jpg" alt="奶龙全身照"></div>
+        <div class="about-text">
+            <h3>关于奶龙</h3>
+            <p>今夜星光闪闪，我想你的心暖暖！</p>
+            <p>奶龙是一只黄色的小恐龙，有着圆滚滚的身体、大大的绿眼睛，还有永远上扬的小嘴巴～它性格软萌又调皮，爱吃草莓蛋糕、爱和小伙伴玩耍，偶尔会闹点小脾气，但转头就忘啦～</p >
+            <p>奶龙的快乐很简单：晒晒太阳、吃吃零食、和好朋友一起探险，它的小日常总能治愈所有人的不开心～</p >
+            <ul>
+                <li>昵称：小唐龙、奶呼呼</li>
+                <li>爱好：吃零食、打滚、装唐</li>
+                <li>性格：软萌、调皮、治愈系</li>
+                <li>口头禅：“哼！”“哇！”“来了来了～”“你是奶龙，你才是奶龙”</li>
+            </ul>
+        </div>
+    </section>
+    <footer class="footer"><p>© 2025 奶龙的快乐星球 | 所有图片仅供欣赏，侵权必删</p ></footer>
+</body>
+</html>
